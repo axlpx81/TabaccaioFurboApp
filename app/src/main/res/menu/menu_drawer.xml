@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_load_data"
+            android:checked="false"
+            android:icon="@mipmap/ic_add_shopping_cart_white_24dp"
+            android:title="@string/menu_load_data" />
+
+        <item
+            android:id="@+id/item_create_file"
+            android:checked="false"
+            android:icon="@mipmap/ic_create_white_24dp"
+            android:title="@string/menu_create_file" />
+
+        <item
+            android:id="@+id/item_create_file_new"
+            android:checked="false"
+            android:icon="@mipmap/ic_create_white_24dp"
+            android:title="@string/menu_create_file_new" />
+
+        <item
+            android:id="@+id/item_la_ciana"
+            android:checked="false"
+            android:icon="@mipmap/ic_chat_white_24dp"
+            android:title="@string/menu_la_ciana" />
+
+
+        <item
+            android:id="@+id/item_view"
+            android:checked="false"
+            android:icon="@mipmap/ic_shopping_cart_white_24dp"
+            android:title="@string/menu_view" />
+        <item
+            android:id="@+id/item_forward"
+            android:checked="false"
+            android:icon="@mipmap/ic_send_white_24dp"
+            android:title="@string/menu_forward" />
+        </group>
+    <group android:id="@+id/group_utils"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_how_to"
+            android:checked="false"
+            android:icon="@mipmap/ic_info_outline_white_24dp"
+            android:title="@string/menu_how_to" />
+        <item
+            android:id="@+id/item_send_mail"
+            android:checked="false"
+            android:icon="@mipmap/ic_mail_outline_white_24dp"
+            android:title="@string/menu_send_mail" />
+        <item
+            android:id="@+id/item_help"
+            android:checked="false"
+            android:icon="@mipmap/ic_help_outline_white_24dp"
+            android:title="@string/menu_help" />
+    </group>
+</menu>

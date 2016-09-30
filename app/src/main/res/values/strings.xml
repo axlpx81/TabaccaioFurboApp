@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tabaccaio Furbo</string>
+    <string name="string_login" translatable="false">Login</string>
+    <string name="string_tabaccaio" translatable="false">Tabaccaio</string>
+    <string name="string_furbo" translatable="false">Furbo</string>
+    <string name="string_null" translatable="false"></string>
+    <string name="user_id" translatable="false">User ID</string>
+    <string name="string_slogan" translatable="false">Il software più semplice per la tabaccheria</string>
+    <string name="string_password" translatable="false">Password</string>
+    <string name="string_reset" translatable="false">Reset form</string>
+    <string name="error_login_failed">Login fallito:</string>
+    <string name="error_http_500">Errore server</string>
+    <string name="menu_load_data">Carica dati</string>
+    <string name="menu_create_file">Crea file Logista</string>
+    <string name="menu_create_file_new">Crea file Logista (new)</string>
+    <string name="menu_la_ciana">La "Ciana"</string>
+    <string name="menu_view">Visualizza</string>
+    <string name="menu_forward">Inoltra ordine</string>
+    <string name="menu_how_to">Come faccio a...</string>
+    <string name="menu_send_mail">Inviaci una mail</string>
+    <string name="menu_help">Chiamaci</string>
+    <string name="error_credentials">Inserire le credenziali</string>
+    <string name="drawer_open" translatable="false">Apri menu</string>
+    <string name="drawer_close" translatable="false">Chiudi menu</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="permission_phone_rationale">L\'utilizzo del telefono è necessario per la richiesta di assitenza</string>
+    <string name="string_accept">Accetta</string>
+    <string name="string_decline">Declina</string>
+    <string name="permission_phone_denied">Accesso negato all\'utilizzo del telefono</string>
+    <string name="request_modify_permissions">Modificare autorizzazioni?</string>
+    <string name="request_open_browser">Consentire l\'apertura del browser?</string>
+    <string name="request_start_call">Effettuare la chiamata?</string>
+    <string name="string_user">Utente</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

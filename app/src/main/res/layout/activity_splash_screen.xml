@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.SplashScreenActivity"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textEmptyTop"
+            android:layout_width="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/string_null"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/textTabaccaio"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/splash_font_size"
+            android:text="@string/string_tabaccaio"
+            android:layout_weight="0.01"
+            android:textColor="@color/splashTextColor"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="1"
+            android:shadowColor="@color/splashTextShadowColor"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            />
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textFurbo"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/splash_font_size"
+            android:text="@string/string_furbo"
+            android:layout_weight="0.01"
+            android:textColor="@color/splashTextColor"
+            android:shadowDx="8"
+            android:shadowDy="8"
+            android:shadowRadius="1"
+            android:shadowColor="@color/splashTextShadowColor"
+            android:layout_height="wrap_content"
+            android:textAlignment="center" />
+    <TextView
+        android:id="@+id/textEmptyBottom"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/string_null"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+
